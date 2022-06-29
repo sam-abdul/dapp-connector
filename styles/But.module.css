@@ -1,0 +1,48 @@
+.walletBut {
+    background-color: #6851FF;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.walletBut:hover {
+    background-color: white;
+    border: #6851FF 1px solid;
+    color: #6851FF;
+}
+
+.iconBut {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+    color: black;
+}
+
+.text {
+    color: #6851FF;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.text:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+}
