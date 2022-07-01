@@ -10,7 +10,7 @@ const Wallet = () => {
   return (
     <>
       <div className={styles.walletType}>
-        <div className={styles.walletHead}>Wallet Supported</div>
+    
         <div className={styles.walletBody}>
           <div className={styles.wallet_child}> <Image src={Metamask} height={100} width={100} /></div>
           <div className={styles.wallet_child}>  <Image src={WalletConnect} height={100} width={100} /></div>{" "}
