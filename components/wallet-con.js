@@ -35,7 +35,7 @@ const WalletCon = () => {
     <div>
       <Alert
         message="Notification"
-        description="Make sure you have the Metamask and Phantom (Solana) chrome wallet installed to be able to authenticate with the Metamask or Phantom (Solana) wallet. You can also use the walletConnect to connect any wallet."
+        description="Make sure you have the Metamask and Phantom (Solana) chrome wallet installed to be able to authenticate with the Metamask or Phantom (Solana) wallet. You can also use the walletConnect to connect any wallet. The metamask and phantom are for desktop views only. Use the rest for mobile view."
         type="warning"
         showIcon
         closable
