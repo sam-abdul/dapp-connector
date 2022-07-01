@@ -67,13 +67,13 @@ const WalletCon = () => {
               <div className={styles.icon_child}>
                 <button
                   onClick={() => {
-                    authenticate({ provider: "metamask" });
+                    authenticate({ provider: "walletconnect" });
                   }}
                   className={style.iconBut}
                 >
                   {" "}
-                  <Image src={Metamask} width={80} height={80} />
-                  Metamask
+                  <Image src={WalletConnect} width={80} height={80} />
+                  WalletConnect
                 </button>
               </div>
 
@@ -84,8 +84,8 @@ const WalletCon = () => {
                   }}
                   className={style.iconBut}
                 >
-                  <Image src={WalletConnect} width={80} height={80} />
-                  walletconnect
+                  <Image src={Trustwallet} width={80} height={80} />
+                 TrustWallet
                 </button>
               </div>
             </div>
@@ -101,12 +101,12 @@ const WalletCon = () => {
               <div className={styles.icon_child}>
                 <button
                   onClick={() => {
-                    authenticate({ type: "sol" });
+                    authenticate({ provider: "metamask" });
                   }}
                   className={style.iconBut}
                 >
-                  <Image src={Phantom} width={80} height={80} />
-                  Phantom
+                  <Image src={Metamask} width={80} height={80} />
+                  Metamask
                 </button>
               </div>
             </div>
@@ -114,12 +114,12 @@ const WalletCon = () => {
               <div className={styles.icon_child}>
                 <button
                   onClick={() => {
-                    authenticate({ provider: "walletconnect" });
+                    authenticate({ type: "sol" });
                   }}
                   className={style.iconBut}
                 >
-                  <Image src={Trustwallet} width={80} height={80} />
-                  TrustWallet
+                  <Image src={Phantom} width={80} height={80} />
+                  Phantom
                 </button>
               </div>
 
