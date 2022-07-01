@@ -11,7 +11,9 @@ const Header = () => {
                Welcome to<br></br> dapp-connector.
              
             </div>
-         <div className={styles.headerBut}>Get Started</div>
+         <Link href='/document'>
+        <div className={styles.headerBut}>Get Started</div>
+        </Link>
             </div>
             <div className={styles.header_img}>
             <Image src={Welcome}/>
