@@ -104,7 +104,7 @@ const Navbar = () => {
             <Link href='/pricing'>
               <div className={styles.link}>Pricing</div>
             </Link>
-            <Link href='/document'>
+            <Link href='https://twitter.com/SamAbdul_'>
               <div className={styles.link}>Contact Us</div>
             </Link>
           </div>
