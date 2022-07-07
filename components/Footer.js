@@ -13,7 +13,7 @@ const Footer = () => {
         <div className={styles.footer_text}> Sam Abdul</div>
         <div className={styles.social}>
             <div className={styles.social_icon}>
-                <Link href='https://samabdul.com'>
+                <Link href='https://www.samspace.dev/'>
                 <Image src={Website} height={30} width={30} />
                 </Link>
             </div>
