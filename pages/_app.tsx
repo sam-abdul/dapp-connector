@@ -9,8 +9,8 @@ const connectors = {
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <MoralisProvider
-      appId="Pidxmn1278gkTm4i1swQOIskhkWhgKnHWyOq5h9d"
-      serverUrl="https://qiqshshkk.usemoralis.com:1910/server"
+      appId="QkQVKF2gkTm4i1swWhsfq4FbamWhgKnHWyOq5h9d"
+      serverUrl="https://jrckdbttmgih.usemoralis.com:2053/server"
     >
       <Component {...pageProps} />
     </MoralisProvider>
